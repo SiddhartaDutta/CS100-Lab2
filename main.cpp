@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "c-count.h"
 int main()
 {
   std::string name;
