@@ -1,8 +1,11 @@
-#include "c-echo.h"
+#include <iostream>
 
-int main(int argv, char** argc)
+int main()
 {
-  std::cout << "Count of output: " << count(echo(argv,argc)) << std::endl;
+  std::string name;
+    std::cout << "What is your name?" << std::endl;
+    std::cin >> name;
+    std::cout << "Hello " << name << "!" << std::endl;
 
   return 0;
 }
